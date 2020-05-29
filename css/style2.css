@@ -1,0 +1,29 @@
+.box1{
+  width: 900px;
+  height: 900px;
+  position: relative;
+  background-color: blue;
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: red;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  margin:auto;
+}
+.text::before{
+  content:"\&yen";
+  font-size:50px;
+  color:black;
+
+}
+.text::after{
+  content:"/";
+  font-size:50px;
+  color:black;
+
+}
